@@ -1,3 +1,6 @@
+# Author Davide Gardenal
+
+# Floating Point Arithmetic
 # Exercise 3
 
 import numpy as np
@@ -18,6 +21,3 @@ B_eigvals = np.linalg.eigvals(B)
 
 print(f"A eigenvalues are = {A_eigvals}")
 print(f"B eigenvalues are = {B_eigvals}")
-
-# A has rank 2 and so it's a full rank matrix, meanwhile B it's not
-# A has 2 non-zero eigenvalues while B has only 1. That's corresponding to the rank
